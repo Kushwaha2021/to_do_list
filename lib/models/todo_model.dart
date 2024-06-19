@@ -24,16 +24,18 @@ class Todo {
       description: doc['description'],
       dueDate: (doc['dueDate'] as Timestamp).toDate(),
       isComplete: doc['isComplete'],
-        createdAt: (doc['dueDate'] as Timestamp).toDate()
+        createdAt: (doc['createdAt'] as Timestamp).toDate()
     );
   }
 
   Map<String, dynamic> toMap() {
     return {
+      'id':id,
       'title': title,
       'description': description,
       'dueDate': dueDate,
       'isComplete': isComplete,
+      'createdAt':createdAt
     };
   }
 
