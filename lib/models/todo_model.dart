@@ -6,6 +6,7 @@ class Todo {
   final String description;
   final DateTime dueDate;
   final bool isComplete;
+  final DateTime createdAt;
 
   Todo({
     required this.id,
@@ -13,6 +14,7 @@ class Todo {
     required this.description,
     required this.dueDate,
     required this.isComplete,
+    required this.createdAt
   });
 
   factory Todo.fromDocument(DocumentSnapshot doc) {
@@ -22,6 +24,7 @@ class Todo {
       description: doc['description'],
       dueDate: (doc['dueDate'] as Timestamp).toDate(),
       isComplete: doc['isComplete'],
+        createdAt: (doc['dueDate'] as Timestamp).toDate()
     );
   }
 
@@ -40,6 +43,7 @@ class Todo {
     String? description,
     DateTime? dueDate,
     bool? isComplete,
+    DateTime? createdAt
   }) {
     return Todo(
       id: id ?? this.id,
@@ -47,6 +51,7 @@ class Todo {
       description: description ?? this.description,
       dueDate: dueDate ?? this.dueDate,
       isComplete: isComplete ?? this.isComplete,
+      createdAt:createdAt??this.createdAt,
     );
   }
 }
