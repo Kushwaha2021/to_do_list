@@ -15,15 +15,16 @@ class TodoService with ChangeNotifier {
   TodoService.initialize(){
     fetchTodos();
   }
-  Future<void> fetchTodos() async {
-    final user = FirebaseAuth.instance.currentUser;
-    if (user != null) {
-      final querySnapshot = await _db
-          .collection('users').doc(user.uid).collection("todos")
-          .get();
-      _todos = querySnapshot.docs.map((doc) => Todo.fromDocument(doc)).toList();
-      notifyListeners();
-    }
+  Stream<List<Todo>> fetchTodos() {
+      return FirebaseFirestore.instance
+          .collection('users').doc(FirebaseAuth.instance.currentUser!.uid).collection("todos")
+          .orderBy('createdAt', descending: true)
+          .snapshots()
+          .map((data) {
+        notifyListeners();
+      return _todos = data.docs.map((doc) => Todo.fromDocument(doc)).toList();
+
+    });
   }
 
   Future<void> addTodo(Todo todo) async {
