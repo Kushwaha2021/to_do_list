@@ -46,9 +46,9 @@ dependencies:
   sizer: ^2.0.15
   flutter_overlay_loader: ^1.0.3
   path_provider: any
-  firebase_crashlytics:
-  firebase_analytics: ^10.7.1
-  internet_connection_checker: ^1.0.0+1
+  firebase_crashlytics: ^3.5.7
+  firebase_analytics: ^10.10.7
+  connectivity_plus: ^2.3.7
   intl: any
 
 dev_dependencies:
