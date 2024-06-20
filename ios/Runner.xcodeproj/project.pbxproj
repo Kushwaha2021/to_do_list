@@ -10,10 +10,29 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		73B265422C22FAC300BC1CAD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265412C22FAC300BC1CAD /* FirebaseAnalytics */; };
+		73B265442C22FAC300BC1CAD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265432C22FAC300BC1CAD /* FirebaseAnalyticsOnDeviceConversion */; };
+		73B265462C22FAC300BC1CAD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265452C22FAC300BC1CAD /* FirebaseAnalyticsSwift */; };
+		73B265482C22FAC300BC1CAD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265472C22FAC300BC1CAD /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		73B2654A2C22FAC300BC1CAD /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265492C22FAC300BC1CAD /* FirebaseAppCheck */; };
+		73B2654C2C22FAC300BC1CAD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2654B2C22FAC300BC1CAD /* FirebaseAuth */; };
+		73B2654E2C22FAC300BC1CAD /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2654D2C22FAC300BC1CAD /* FirebaseAuthCombine-Community */; };
+		73B265502C22FAC300BC1CAD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2654F2C22FAC300BC1CAD /* FirebaseCrashlytics */; };
+		73B265522C22FAC300BC1CAD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265512C22FAC300BC1CAD /* FirebaseDatabase */; };
+		73B265542C22FAC300BC1CAD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265532C22FAC300BC1CAD /* FirebaseDatabaseSwift */; };
+		73B265562C22FAC300BC1CAD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265552C22FAC300BC1CAD /* FirebaseFirestore */; };
+		73B265582C22FAC300BC1CAD /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265572C22FAC300BC1CAD /* FirebaseFirestoreCombine-Community */; };
+		73B2655A2C22FAC300BC1CAD /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265592C22FAC300BC1CAD /* FirebaseFirestoreSwift */; };
+		73B2655C2C22FAC300BC1CAD /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2655B2C22FAC300BC1CAD /* FirebaseFunctions */; };
+		73B2655E2C22FAC300BC1CAD /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2655D2C22FAC300BC1CAD /* FirebaseFunctionsCombine-Community */; };
+		73B265602C22FAC300BC1CAD /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2655F2C22FAC300BC1CAD /* FirebaseInstallations */; };
+		73B265622C22FAC300BC1CAD /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 73B265612C22FAC300BC1CAD /* FirebasePerformance */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		9DFE237C5EF2A4C51D0E7D1E /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AC03CBE2F2BF9B4D340EA4 /* Pods_RunnerTests.framework */; };
+		E24E1BA8324BCAA6743DE703 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FC288518E13327A241455A /* Pods_Runner.framework */; };
 		EA838DEBB202449090D07048 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05A9CB35C3FD30531D1E3473 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -42,14 +61,19 @@
 
 /* Begin PBXFileReference section */
 		05A9CB35C3FD30531D1E3473 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Runner/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		142227FBD4365CC804D02623 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		24A89BD816C702F8320F4B80 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		44A1C760AAF6A7E2BCCADC0F /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
+		89FC288518E13327A241455A /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C6860A8DD06808BB8450B6 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,13 +81,42 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BA3B927907CB65BDD1034C /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		EE5C15EC803963B114FF3DA8 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		F9AC03CBE2F2BF9B4D340EA4 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B5D79B1541F23F5D2D9BB30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE237C5EF2A4C51D0E7D1E /* Pods_RunnerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97C146EB1CF9000F007C117D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B265542C22FAC300BC1CAD /* FirebaseDatabaseSwift in Frameworks */,
+				73B2655C2C22FAC300BC1CAD /* FirebaseFunctions in Frameworks */,
+				73B265462C22FAC300BC1CAD /* FirebaseAnalyticsSwift in Frameworks */,
+				73B2654C2C22FAC300BC1CAD /* FirebaseAuth in Frameworks */,
+				73B265422C22FAC300BC1CAD /* FirebaseAnalytics in Frameworks */,
+				73B265442C22FAC300BC1CAD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				73B2654A2C22FAC300BC1CAD /* FirebaseAppCheck in Frameworks */,
+				73B265502C22FAC300BC1CAD /* FirebaseCrashlytics in Frameworks */,
+				73B2655E2C22FAC300BC1CAD /* FirebaseFunctionsCombine-Community in Frameworks */,
+				73B265622C22FAC300BC1CAD /* FirebasePerformance in Frameworks */,
+				73B2655A2C22FAC300BC1CAD /* FirebaseFirestoreSwift in Frameworks */,
+				73B265522C22FAC300BC1CAD /* FirebaseDatabase in Frameworks */,
+				73B265602C22FAC300BC1CAD /* FirebaseInstallations in Frameworks */,
+				73B2654E2C22FAC300BC1CAD /* FirebaseAuthCombine-Community in Frameworks */,
+				73B265582C22FAC300BC1CAD /* FirebaseFirestoreCombine-Community in Frameworks */,
+				73B265562C22FAC300BC1CAD /* FirebaseFirestore in Frameworks */,
+				73B265482C22FAC300BC1CAD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				E24E1BA8324BCAA6743DE703 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +150,8 @@
 				97C146EF1CF9000F007C117D /* Products */,
 				331C8082294A63A400263BE5 /* RunnerTests */,
 				05A9CB35C3FD30531D1E3473 /* GoogleService-Info.plist */,
+				AA50E9940259CFBAAC95CAA5 /* Pods */,
+				FE85E961F5AA6CFCEF08463C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +179,29 @@
 			path = Runner;
 			sourceTree = "<group>";
 		};
+		AA50E9940259CFBAAC95CAA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A89BD816C702F8320F4B80 /* Pods-Runner.debug.xcconfig */,
+				B3BA3B927907CB65BDD1034C /* Pods-Runner.release.xcconfig */,
+				EE5C15EC803963B114FF3DA8 /* Pods-Runner.profile.xcconfig */,
+				92C6860A8DD06808BB8450B6 /* Pods-RunnerTests.debug.xcconfig */,
+				142227FBD4365CC804D02623 /* Pods-RunnerTests.release.xcconfig */,
+				44A1C760AAF6A7E2BCCADC0F /* Pods-RunnerTests.profile.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE85E961F5AA6CFCEF08463C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89FC288518E13327A241455A /* Pods_Runner.framework */,
+				F9AC03CBE2F2BF9B4D340EA4 /* Pods_RunnerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,8 +209,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
 			buildPhases = (
+				41BC0738E9E8F5FE83BD1267 /* [CP] Check Pods Manifest.lock */,
 				331C807D294A63A400263BE5 /* Sources */,
 				331C807F294A63A400263BE5 /* Resources */,
+				5B5D79B1541F23F5D2D9BB30 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,18 +228,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
+				8E239CDE6EF2570967240899 /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
+				9CC80225E126CB8DBB15DBE7 /* [CP] Embed Pods Frameworks */,
+				909EF74B600DA89FBEF7C49F /* FlutterFire: "flutterfire upload-crashlytics-symbols" */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Runner;
+			packageProductDependencies = (
+				73B265412C22FAC300BC1CAD /* FirebaseAnalytics */,
+				73B265432C22FAC300BC1CAD /* FirebaseAnalyticsOnDeviceConversion */,
+				73B265452C22FAC300BC1CAD /* FirebaseAnalyticsSwift */,
+				73B265472C22FAC300BC1CAD /* FirebaseAnalyticsWithoutAdIdSupport */,
+				73B265492C22FAC300BC1CAD /* FirebaseAppCheck */,
+				73B2654B2C22FAC300BC1CAD /* FirebaseAuth */,
+				73B2654D2C22FAC300BC1CAD /* FirebaseAuthCombine-Community */,
+				73B2654F2C22FAC300BC1CAD /* FirebaseCrashlytics */,
+				73B265512C22FAC300BC1CAD /* FirebaseDatabase */,
+				73B265532C22FAC300BC1CAD /* FirebaseDatabaseSwift */,
+				73B265552C22FAC300BC1CAD /* FirebaseFirestore */,
+				73B265572C22FAC300BC1CAD /* FirebaseFirestoreCombine-Community */,
+				73B265592C22FAC300BC1CAD /* FirebaseFirestoreSwift */,
+				73B2655B2C22FAC300BC1CAD /* FirebaseFunctions */,
+				73B2655D2C22FAC300BC1CAD /* FirebaseFunctionsCombine-Community */,
+				73B2655F2C22FAC300BC1CAD /* FirebaseInstallations */,
+				73B265612C22FAC300BC1CAD /* FirebasePerformance */,
+			);
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +295,9 @@
 				Base,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
+			packageReferences = (
+				73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,6 +347,68 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
+		41BC0738E9E8F5FE83BD1267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E239CDE6EF2570967240899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909EF74B600DA89FBEF7C49F /* FlutterFire: "flutterfire upload-crashlytics-symbols" */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "FlutterFire: \"flutterfire upload-crashlytics-symbols\"";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#!/bin/bash\nPATH=${PATH}:$FLUTTER_ROOT/bin:$HOME/.pub-cache/bin\nflutterfire upload-crashlytics-symbols --upload-symbols-script-path=$PODS_ROOT/FirebaseCrashlytics/upload-symbols --platform=ios --apple-project-path=${SRCROOT} --env-platform-name=${PLATFORM_NAME} --env-configuration=${CONFIGURATION} --env-project-dir=${PROJECT_DIR} --env-built-products-dir=${BUILT_PRODUCTS_DIR} --env-dwarf-dsym-folder-path=${DWARF_DSYM_FOLDER_PATH} --env-dwarf-dsym-file-name=${DWARF_DSYM_FILE_NAME} --env-infoplist-path=${INFOPLIST_PATH} --default-config=default\n";
+		};
 		9740EEB61CF901F6004384FC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -256,6 +423,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
+		};
+		9CC80225E126CB8DBB15DBE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -383,6 +567,7 @@
 		};
 		331C8088294A63A400263BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C6860A8DD06808BB8450B6 /* Pods-RunnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +585,7 @@
 		};
 		331C8089294A63A400263BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142227FBD4365CC804D02623 /* Pods-RunnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -415,6 +601,7 @@
 		};
 		331C808A294A63A400263BE5 /* Profile */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A1C760AAF6A7E2BCCADC0F /* Pods-RunnerTests.profile.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -618,6 +805,105 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73B265412C22FAC300BC1CAD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		73B265432C22FAC300BC1CAD /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		73B265452C22FAC300BC1CAD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		73B265472C22FAC300BC1CAD /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		73B265492C22FAC300BC1CAD /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		73B2654B2C22FAC300BC1CAD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		73B2654D2C22FAC300BC1CAD /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		73B2654F2C22FAC300BC1CAD /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		73B265512C22FAC300BC1CAD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		73B265532C22FAC300BC1CAD /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		73B265552C22FAC300BC1CAD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		73B265572C22FAC300BC1CAD /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		73B265592C22FAC300BC1CAD /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		73B2655B2C22FAC300BC1CAD /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		73B2655D2C22FAC300BC1CAD /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		73B2655F2C22FAC300BC1CAD /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		73B265612C22FAC300BC1CAD /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B265402C22F6BD00BC1CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 97C146E61CF9000F007C117D /* Project object */;
 }
